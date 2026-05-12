@@ -18,7 +18,7 @@ Modern multi‑service business website for a real Delhi‑based brand, crafted 
 
 A quick visual preview of the homepage:
 
-![BOSALOKINGZ Premium Business Screenshot](./imgs/Screenshot 2026-05-12 223654.png "BOSALOKINGZ Premium Business Website") 
+![BOSALOKINGZ Premium Business Screenshot](./imgs/bosalo.png "BOSALOKINGZ Premium Business Website") 
 
 ---
 
