@@ -333,7 +333,7 @@
         footer a[href*="whatsapp"]:hover  { color: #22C55E !important; }
 
         /* ────────────────────────────────────────────
-           RESPONSIVE BREAKPOINTS
+           MOBILE RESPONSIVE BREAKPOINTS
         ──────────────────────────────────────────── */
 
         @media (max-width: 1024px) {
