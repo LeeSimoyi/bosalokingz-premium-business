@@ -46,7 +46,7 @@
             height: auto;
         }
 
-        /* ── NAVBAR ── */
+        /* ============================= NAVBAR =============================== */
         .navbar {
             padding: .75rem 0;
             background: #FFFFFF !important;
@@ -94,7 +94,7 @@
         .nav-link:hover::after, .nav-link.active::after { width:20px; }
         .nav-link:hover, .nav-link.active { color: var(--brand-purple-end) !important; }
 
-        /* ── SECTION UTILITIES ── */
+        /* ======================= SECTION UTILITIES ================================== */
         .section-padding { padding: 70px 0; }
         .section-label {
             font-size:.75rem; letter-spacing:.22em;
@@ -105,7 +105,7 @@
             -webkit-background-clip:text; background-clip:text; color:transparent;
         }
 
-        /* ── HERO ── */
+        /* ================================ HERO ====================================== */
         .hero-section {
             background: linear-gradient(180deg,#FFFFFF 0%,#F7F8FC 70%,#F2F3F7 100%);
             padding: 100px 0 60px;
@@ -136,7 +136,7 @@
             background:#FFFFFF; color: var(--gray-medium);
         }
 
-        /* ── BUTTONS ── */
+        /* ========================= BUTTONS ======================= */
         .btn-hero-primary,
         .btn-hero-ghost,
         .btn-primary-elevated {
@@ -221,7 +221,7 @@
             background: rgba(34,197,94,0.08); color: var(--accent-green); font-size:.68rem;
         }
 
-        /* ── SERVICE CARDS ── */
+        /* ============================ SERVICE CARDS ================================= */
         .service-category { margin-bottom:3rem; }
         .service-card {
             background:#FFFFFF; border-radius:20px;
@@ -244,7 +244,7 @@
             color: var(--gray-medium);
         }
 
-        /* ── GALLERY ── */
+        /* ================================= GALLERY ================================ */
         .gallery-section { background:#FFFFFF; }
         .gallery-filter { display:flex; flex-wrap:wrap; gap:.6rem; justify-content:center; margin-bottom:1.75rem; }
         .filter-pill {
@@ -274,7 +274,7 @@
         .gallery-item:hover img { transform:scale(1.05); filter:saturate(1.2) brightness(1.02); }
         .gallery-item:hover .gallery-overlay { opacity:1; }
 
-        /* ── PRICING ── */
+        /* ================================ PRICING ================================== */
         .pricing-table {
             background:#FFFFFF; border-radius:24px;
             border:1px solid #E5E7EB;
@@ -286,7 +286,7 @@
             letter-spacing:.14em; font-size:.72rem; color: var(--gray-medium);
         }
 
-        /* ── CONTACT ── */
+        /* =============================== CONTACT ======================================== */
         .contact-section { background:#F7F8FC; }
         .contact-info, .contact-form-wrap {
             background:#FFFFFF; border-radius:22px;
@@ -301,10 +301,10 @@
         .form-control::placeholder, textarea::placeholder { color:#9CA3AF !important; }
         .map-container iframe { filter:grayscale(20%) contrast(1.02); width:100%; }
 
-        /* ── FOOTER ── */
+        /* ================================= FOOTER ========================================= */
         footer { background:#1A1A1A; color:#F9FAFB; }
 
-        /* ── WHATSAPP FLOAT ── */
+        /* ================================ WHATSAPP FLOAT ================================== */
         .whatsapp-float {
             position:fixed; width:54px; height:54px;
             bottom:22px; right:22px;
@@ -320,21 +320,21 @@
             60%{transform:translateY(-4px);}
         }
 
-        /* ── SCROLL ANIMATIONS ── */
+        /* =================================== SCROLL ANIMATIONS ======================================== */
         .animate-on-scroll {
             opacity:0; transform:translateY(36px) scale(.98);
             transition: opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1);
         }
         .animate-on-scroll.animated { opacity:1; transform:translateY(0) scale(1); }
 
-        /* ── SOCIAL ICON HOVER COLOURS ── */
+        /* SOCIAL ICON HOVER COLOURS */
         footer a[href*="facebook"]:hover { color: #1877F2 !important; }
         footer a[href*="instagram"]:hover { color: #E1306C !important; }
         footer a[href*="whatsapp"]:hover  { color: #22C55E !important; }
 
-        /* ────────────────────────────────────────────
+        /* ====================================================
            MOBILE RESPONSIVE BREAKPOINTS
-        ──────────────────────────────────────────── */
+           ===================================================== */
 
         @media (max-width: 1024px) {
             .hero-section { padding: 100px 0 60px; }
