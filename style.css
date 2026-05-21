@@ -1,16 +1,16 @@
         :root {
             --brand-purple-start: #7B2FF7;
-            --brand-purple-end:   #9F50FF;
-            --brand-blue-start:   #3A8DFF;
-            --brand-blue-end:     #00C6FF;
-            --bg-page:      #F7F8FC;
-            --bg-card:      #FFFFFF;
-            --bg-soft:      #F2F3F7;
-            --text-main:    #1A1A1A;
-            --text-second:  #6B7280;
-            --gray-medium:  #6B7280;
+            --brand-purple-end: #9F50FF;
+            --brand-blue-start: #3A8DFF;
+            --brand-blue-end: #00C6FF;
+            --bg-page: #F7F8FC;
+            --bg-card: #FFFFFF;
+            --bg-soft: #F2F3F7;
+            --text-main: #1A1A1A;
+            --text-second: #6B7280;
+            --gray-medium: #6B7280;
             --accent-yellow:#FFD84D;
-            --accent-red:   #FF4D4F;
+            --accent-red: #FF4D4F;
             --accent-green: #22C55E;
             --dark-charcoal:#2D2D2D;
         }
@@ -69,7 +69,9 @@
             border-radius: 10px;
             flex-shrink: 0;
             background: linear-gradient(135deg,var(--brand-purple-start),var(--brand-purple-end));
-            display:flex; align-items:center; justify-content:center;
+            display:flex; 
+            align-items:center; 
+            justify-content:center;
             color:#FFFFFF;
             box-shadow:0 6px 18px rgba(123,47,247,0.4);
         }
@@ -102,7 +104,9 @@
         }
         .section-title-gradient {
             background: linear-gradient(120deg,var(--text-main),var(--brand-purple-end));
-            -webkit-background-clip:text; background-clip:text; color:transparent;
+            -webkit-background-clip:text; 
+            background-clip:text; 
+            color:transparent;
         }
 
         /* ================================ HERO ====================================== */
@@ -112,11 +116,15 @@
             overflow: hidden;
         }
         .hero-badge-top {
-            display:inline-flex; align-items:center; gap:.4rem;
-            padding:.28rem .7rem; border-radius:999px;
+            display:inline-flex; 
+            align-items:center; 
+            gap:.4rem;
+            padding:.28rem .7rem; 
+            border-radius:999px;
             background: rgba(123,47,247,0.06);
             border:1px solid rgba(123,47,247,0.22);
-            font-size:.72rem; color: var(--brand-purple-end);
+            font-size:.72rem; 
+            color: var(--brand-purple-end);
             flex-wrap: wrap;
             word-break: break-word;
         }
@@ -188,30 +196,56 @@
             border-radius:999px; opacity:.8; z-index:0;
         }
         .hero-card-main {
-            position:relative; background:#FFFFFF; border-radius:22px;
+            position:relative; 
+            background:#FFFFFF; 
+            border-radius:22px;
             box-shadow:0 14px 36px rgba(15,23,42,0.08);
-            padding:1.25rem; z-index:1; border:1px solid #E5E7EB;
+            padding:1.25rem; 
+            z-index:1; 
+            border:1px solid #E5E7EB;
         }
         .hero-tag {
-            display:inline-flex; align-items:center; gap:.35rem;
-            padding:.22rem .7rem; border-radius:999px; font-size:.72rem;
-            background:#F9FAFB; color: var(--gray-medium); margin-bottom:.75rem;
+            display:inline-flex; 
+            align-items:center; 
+            gap:.35rem;
+            padding:.22rem .7rem; 
+            border-radius:999px; 
+            font-size:.72rem;
+            background:#F9FAFB; 
+            color: var(--gray-medium); 
+            margin-bottom:.75rem;
         }
         .hero-tag i { color: var(--brand-blue-start); }
         .hero-img-frame {
-            border-radius:16px; overflow:hidden; border:1px solid #E5E7EB;
-            margin-bottom:.75rem; position:relative;
+            border-radius:16px; 
+            overflow:hidden; 
+            border:1px solid #E5E7EB;
+            margin-bottom:.75rem; 
+            position:relative;
         }
-        .hero-img-frame img { width:100%; height:180px; object-fit:cover; }
+        .hero-img-frame img { 
+            width:100%; 
+            height:180px; 
+            object-fit:cover; }
         .hero-discount-badge {
-            position:absolute; right:12px; top:12px;
-            background: var(--accent-red); color:#FFFFFF; font-size:.72rem;
-            padding:.2rem .55rem; border-radius:999px;
-            display:inline-flex; align-items:center; gap:.2rem;
+            position:absolute; 
+            right:12px; 
+            top:12px;
+            background: var(--accent-red); 
+            color:#FFFFFF; 
+            font-size:.72rem;
+            padding:.2rem .55rem; 
+            border-radius:999px;
+            display:inline-flex; 
+            align-items:center; 
+            gap:.2rem;
         }
         .hero-badges-bottom {
-            display:flex; justify-content:space-between;
-            align-items:flex-start; gap:.75rem; flex-wrap:wrap;
+            display:flex; 
+            justify-content:space-between;
+            align-items:flex-start; 
+            gap:.75rem; 
+            flex-wrap:wrap;
         }
         .hero-badge-small { font-size:.76rem; color: var(--gray-medium); }
         .hero-badge-small strong { display:block; font-size:.88rem; color: var(--text-main); }
