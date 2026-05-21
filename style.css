@@ -182,7 +182,8 @@
         }
         .btn-hero-primary:hover {
             transform:translateY(-2px) scale(1.02);
-            box-shadow:0 16px 36px rgba(123,47,247,0.5); color:#FFFFFF;
+            box-shadow:0 16px 36px rgba(123,47,247,0.5); 
+            color:#FFFFFF;
         }
         .btn-hero-ghost {
             background:#FFFFFF; 
@@ -221,12 +222,19 @@
         }
 
         /* Hero Visual */
-        .hero-visual-wrapper { position:relative; max-width:480px; margin:0 auto; }
+        .hero-visual-wrapper { 
+            position:relative; 
+            max-width:480px; 
+            margin:0 auto; }
         .hero-yellow-circle {
-            position:absolute; right:-30px; top:8%;
+            position:absolute; 
+            right:-30px; 
+            top:8%;
             width:150px; height:150px;
             background: var(--accent-yellow);
-            border-radius:999px; opacity:.8; z-index:0;
+            border-radius:999px; 
+            opacity:.8; 
+            z-index:0;
         }
         .hero-card-main {
             position:relative; 
@@ -280,8 +288,15 @@
             gap:.75rem; 
             flex-wrap:wrap;
         }
-        .hero-badge-small { font-size:.76rem; color: var(--gray-medium); }
-        .hero-badge-small strong { display:block; font-size:.88rem; color: var(--text-main); }
+        .hero-badge-small { 
+            font-size:.76rem; 
+            color: var(--gray-medium); 
+        }
+        .hero-badge-small strong { 
+            display:block; 
+            font-size:.88rem; 
+            color: var(--text-main); 
+        }
         .hero-badge-chip {
             display:inline-flex; align-items:center; gap:.25rem;
             padding:.15rem .5rem; border-radius:999px;
