@@ -130,28 +130,45 @@
         }
         .hero-title {
             font-size: clamp(1.6rem, 5vw, 2.5rem);
-            font-weight:800; color: var(--text-main); line-height:1.18;
+            font-weight:800; 
+            color: var(--text-main); 
+            line-height:1.18;
         }
         .hero-highlight {
             background: linear-gradient(135deg,var(--brand-purple-start),var(--brand-purple-end));
-            -webkit-background-clip:text; background-clip:text; color:transparent;
+            -webkit-background-clip:text;
+            background-clip:text; 
+            color:transparent;
         }
-        .hero-subtext { color: var(--text-second); font-size:.95rem; }
-        .hero-pill-row { display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:1.1rem; }
+        .hero-subtext { 
+            color: var(--text-second); 
+            font-size:.95rem; }
+        .hero-pill-row { 
+            display:flex; 
+            flex-wrap:wrap; 
+            gap:.4rem; 
+            margin-bottom:1.1rem; 
+        }
         .hero-pill {
-            font-size:.72rem; padding:.18rem .65rem;
-            border-radius:999px; border:1px solid #E5E7EB;
-            background:#FFFFFF; color: var(--gray-medium);
+            font-size:.72rem; 
+            padding:.18rem .65rem;
+            border-radius:999px; 
+            border:1px solid #E5E7EB;
+            background:#FFFFFF; 
+            color: var(--gray-medium);
         }
 
         /* ========================= BUTTONS ======================= */
         .btn-hero-primary,
         .btn-hero-ghost,
         .btn-primary-elevated {
-            position: relative; overflow: hidden;
+            position: relative; 
+            overflow: hidden;
             transform: translateY(0) scale(1);
             transition: transform .25s, box-shadow .25s, background .25s, color .25s;
-            display:inline-flex; align-items:center; gap:.4rem;
+            display:inline-flex; 
+            align-items:center; 
+            gap:.4rem;
             white-space: nowrap;
         }
         .btn-hero-primary {
