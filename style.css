@@ -175,7 +175,9 @@
             background: linear-gradient(135deg,var(--brand-purple-start),var(--brand-purple-end));
             border:none; color:#FFFFFF;
             padding:.8rem 1.5rem;
-            border-radius:999px; font-size:.88rem; font-weight:600;
+            border-radius:999px; 
+            font-size:.88rem; 
+            font-weight:600;
             box-shadow:0 10px 26px rgba(123,47,247,0.35);
         }
         .btn-hero-primary:hover {
@@ -183,9 +185,12 @@
             box-shadow:0 16px 36px rgba(123,47,247,0.5); color:#FFFFFF;
         }
         .btn-hero-ghost {
-            background:#FFFFFF; border-radius:999px;
+            background:#FFFFFF; 
+            border-radius:999px;
             border:1px solid #E5E7EB;
-            padding:.8rem 1.3rem; font-size:.88rem; font-weight:500;
+            padding:.8rem 1.3rem; 
+            font-size:.88rem; 
+            font-weight:500;
             color: var(--text-main);
         }
         .btn-hero-ghost:hover {
@@ -194,15 +199,26 @@
             border-color: rgba(123,47,247,0.35);
         }
         .hero-cta-main {
-            display: flex; flex-wrap: wrap; gap: .75rem; align-items: center;
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: .75rem; 
+            align-items: center;
             margin-bottom: 1rem;
         }
         .hero-meta {
-            display:flex; flex-wrap:wrap; gap:.65rem;
-            font-size:.82rem; color: var(--gray-medium);
+            display:flex; 
+            flex-wrap:wrap; 
+            gap:.65rem;
+            font-size:.82rem; 
+            color: var(--gray-medium);
         }
         .hero-meta strong { color: var(--text-main); }
-        .hero-divider { width:1px; height:16px; background:#E5E7EB; display:inline-block; }
+        .hero-divider { 
+            width:1px; 
+            height:16px; 
+            background:#E5E7EB; 
+            display:inline-block; 
+        }
 
         /* Hero Visual */
         .hero-visual-wrapper { position:relative; max-width:480px; margin:0 auto; }
